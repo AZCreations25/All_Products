@@ -126,6 +126,10 @@ body {
             align-items: center;
         }
 
+        .grid a{
+            text-decoration: none;
+        }
+
         .grid1 {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -155,6 +159,8 @@ body {
             padding: 10px;
             font-size: 1.1em;
             font-weight: bold;
+            text-decoration:none;
+            color: #590059;
         }
 
         .cta {
