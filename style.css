@@ -130,6 +130,10 @@ body {
             text-decoration: none;
         }
 
+        .grid1 a{
+            text-decoration: none;
+        }
+
         .grid1 {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
