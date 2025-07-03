@@ -130,13 +130,20 @@ body {
             text-decoration: none;
         }
 
-        .grid1 a{
+        .grid1 a,.grid2 a {
             text-decoration: none;
         }
 
         .grid1 {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 10px;
+            align-items: center;
+        }
+
+.grid2 {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
             gap: 10px;
             align-items: center;
         }
